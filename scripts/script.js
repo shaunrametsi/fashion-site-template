@@ -1,6 +1,6 @@
 var menFashionImages = [
     
-    "../Images/men-fashion/pexels-men-(1).jpeg",
+    "../Images/men-fashion/pexels-men-(1).JPG",
     "../Images/men-fashion/pexels-men-(2).jpeg",
     "../Images/men-fashion/pexels-men-(3).jpeg",
     "../Images/men-fashion/pexels-men-(4).jpeg",
