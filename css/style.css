@@ -1,0 +1,289 @@
+.body {
+    background: black;
+}
+
+.mid-col {
+    width: 45%;
+    padding: 2px;
+    margin: 2px;
+}
+
+.displayBlock {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100%;
+}
+
+.container>.card {
+    margin: 30% 10%;
+    background-color: #120103 !important;
+    color: white !important;
+}
+
+.card>h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerContent {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+
+.descriptionContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 23px;
+    margin: 1px;
+}
+
+th {
+    border-style: none !important;
+}
+
+td {
+    border-style: none !important;
+}
+
+grid {
+    top: 30%;
+    display: grid;
+    grid-template-columns: repeat(4, 50%);
+    width: 70%;
+}
+
+displaybox {
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    left:0;
+    border: solid white 1px;
+    grid-template-columns: repeat(2, 50%);
+    background-color: transparent;
+    font-family: 'Tw Cen MT';
+    font-size: large;
+    color: white;
+    position: absolute;
+    box-shadow: 0 .2em 1em black;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    align-self: center;
+
+}
+
+a{
+ color:white!important;
+  text-decoration: none !important;
+}
+grid label {
+    color: white !important;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4.25em;
+    font-size: .667em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+header {
+    background-color: black;
+    opacity: 0.7;
+    font-family: 'Tw Cen MT';
+    font-size: large;
+    color: whitesmoke;
+    box-shadow: 0 .2em 1em black;
+    position: fixed;
+    height: 40px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    z-index: 900;
+    width: 100%;
+}
+
+header label {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4.25em;
+    font-size: .667em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+header label:hover {
+    background-color: black;
+    opacity: 1;
+    color: white;
+    font-stretch: condensed;
+}
+
+.btn-navigation {
+    top: 20%;
+    float: left;
+    font-weight: 900;
+    box-shadow: 0 .5em 2em darkgrey;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    border-style: none;
+    opacity: 0.8;
+    background-color: white;
+    color: black;
+    transition-duration: 700ms;
+    cursor: pointer;
+}
+
+.btn-circle {
+    top: 10%;
+    border: double;
+    font-weight: 900;
+    left: 0;
+    width: 80%;
+    border-style: none;
+    opacity: 0.8;
+    background-color: transparent;
+    color: white;
+    transition-duration: 700ms;
+    cursor: pointer;
+}
+
+.btn-image {
+    /* box-shadow: 0 .5em 2em darkgrey; */
+    width: 80%;
+    transition-duration: 700ms;
+    cursor: pointer;
+}
+
+.image-text {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform .5s .5s, opacity .5s;
+    color: white;
+    font-family: 'Tw Cen MT';
+    text-align: left;
+}
+
+.btn-circle:hover .image-text {
+    opacity: 1;
+    color: white;
+    transform: translateY(0);
+    transition: all .5s .5s;
+}
+
+.blur-effect {
+    filter: blur(5px);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-image: url('../Images/pexels-photo-206434.jpeg');
+
+    background-color: red;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    top: 30%;
+    left:0;
+    height: 30%;
+
+}
+
+.btn-circle:hover {
+    opacity: 1;
+    border-radius: 0;
+    color: black;
+    font-weight: bolder;
+    margin: 0;
+    width: 300px;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-color: #120103;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: left 0s .75s;
+}
+
+.slide-one {
+    background-image: url('../Images/pexels-photo-206434.jpeg');
+    justify-content: center;
+}
+
+.slide-two {
+    background-image: url('../Images/pexels-photo-944761.jpeg');
+}
+
+.slide-three {
+    background-image: url('../Images/attractive-beautiful-diversity-247204.jpg');
+    text-align: center;
+}
+
+[id^="slide"]:checked+.slide {
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+.outerContainer {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(2,50%);
+    grid-auto-flow: dense;
+    transition-delay: 1s;
+    background-color: black;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictureDiv {
+    margin: 0;
+    padding: 0;
+}
+
+.gridImage {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.imgcontainer {
+    display: flex;
+    align-content: center;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@-webkit-keyframes slidein {
+    from {
+        transform: translateY(900px) rotateX(90deg) rotateY(90deg);
+    }
+    to {
+        transform: translateY();
+    }
+}
+
+.gray-scale{
+ -webkit-filter:grayscale(100%);
+ filter:grayscale(100%);
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-card {
+    display: none ;
+    position: fixed ;
+    z-index: 1 ;
+    padding-top: 100px;
+    left: 0 ;
+    padding-left: 25%; 
+    padding-right: 25%; 
+    top: 0 ;
+    width: 100%;
+    height: 100%;
+    overflow: auto ;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    -webkit-animation-duration: 500ms; 
+    -webkit-animation-name: flowin;
+}
+
+.modal-content-card {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@-webkit-keyframes flowin {
+    from {
+        transform: scale(0.2,0.2) ;
+    }
+    to {
+        transform: scaleZ(-0.2) ;
+
+    }
+}

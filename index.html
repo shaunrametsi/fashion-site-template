@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Show</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="scripts/script.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <label for="slide-1-trigger">ABOUT</label>
+        <label for="slide-2-trigger">LOGIN</label>
+        <label for="slide-3-trigger">REGISTER</label>
+    </header>
+
+
+    <input id="slide-1-trigger" type="radio" style="visibility: hidden;" name="slides" checked/>
+    <section class="slide slide-one">
+        <div class="blur-effect"></div>
+        <displaybox>
+            <grid>
+                <button class="btn-circle ">
+                    <a href="./pages/men.html">
+                        <h2 class="image-text">MEN</h2>
+                        <img class="btn-image" src="./Images/men-fashion/pexels-men-(1).jpeg">
+                    </a>
+                </button>
+                <button class="btn-circle ">
+                    <a href="./pages/woman.html">
+                        <h2 class="image-text">WOMEN</h2>
+                        <img class="btn-image" src="./Images/woman-fashion/pexels-woman(1).jpeg">
+                    </a>
+                </button>
+            </grid>
+        </displaybox>
+    </section>
+
+
+
+    <input id="slide-2-trigger" type="radio" style="visibility: hidden;" name="slides" />
+    <section class="slide slide-two" style="text-align: center;">
+        <div style="top:20px; left:5px;">
+            <div class="card text-white bg-dark mb-3" style="max-width: 25rem; opacity: 0.9;">
+                <div class="card-body">
+                    <div class="card-body" style="float: left;">
+                        <table class="table table-responsive">
+                            <tbody>
+                                <tr>
+                                    <th>Username</th>
+                                    <td>
+                                        <input type="text" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Password</th>
+                                    <td>
+                                        <input type="password" class="form-control">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <button type="button" class="btn btn-light" style="width:100%">
+                            <strong>login</strong>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <input id="slide-3-trigger" type="radio" style="visibility: hidden;" name="slides" />
+    <section class="slide slide-three">
+        <div style="top:20px; left:5px;">
+            <div class="card text-white bg-dark mb-3" style="max-width: 25rem; opacity: 0.9;">
+                <div class="card-header">
+                    <strong>Register</strong>
+                </div>
+                <div class="card-body">
+                    <div class="card-body" style="float: left;">
+                        <table class="table table-responsive">
+                            <tbody>
+                                <tr>
+                                    <th>Name</th>
+                                    <td>
+                                        <input type="text" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Surname</th>
+                                    <td>
+                                        <input type="password" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Username</th>
+                                    <td>
+                                        <input type="text" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Password</th>
+                                    <td>
+                                        <input type="password" class="form-control">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Confirm</th>
+                                    <td>
+                                        <input type="password" class="form-control">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <button type="button" class="btn btn-light" style="width:100%">
+                            <strong>save</strong>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+
+</html>

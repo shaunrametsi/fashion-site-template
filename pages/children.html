@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fashion Show</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <script src="../scripts/script.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background: gray">
+    <header>
+        <label class="btn-navigation">
+            <strong>back</strong>
+        </label>
+        </label>
+    </header>
+    <div class="outerContainer">
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+        <div class="gridImage slidein"></div>
+    </div>
+
+    <style>
+        .slidein {
+            width: 100px;
+            height: 100px;
+            border:1px;
+            border: solid;
+            -webkit-animation-name: example;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 1s;
+        }
+
+        /* Safari 4.0 - 8.0 */
+
+        @-webkit-keyframes example {
+            from {
+                transform: translateY(30px);
+            }
+            to {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
