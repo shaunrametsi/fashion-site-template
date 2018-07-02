@@ -65,7 +65,7 @@ function getMenFashion()
         childImage.setAttribute("style", "-webkit-animation-duration: " + ((Math.random() * 2000) + 200) + "ms; -webkit-animation-name: slidein");
         document.getElementById('container' + count.toString()).appendChild(childImage);
         let index = count + 1;
-        count = index < 5 ? count + 1 : 1;  
+        count = index < 4 ? count + 1 : 1;  
     });
 
 }
@@ -84,7 +84,7 @@ function getWomanFashion()
         childImage.setAttribute("style", "-webkit-animation-duration: " + ((Math.random() * 2000) + 200) + "ms; -webkit-animation-name: slidein");
         document.getElementById('container' + count.toString()).appendChild(childImage);
         let index = count + 1;
-        count = index < 5 ? count + 1 : 1;  
+        count = index < 4 ? count + 1 : 1;  
     });
 
 }

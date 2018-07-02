@@ -156,7 +156,7 @@ header label:hover {
 
 .btn-image {
     /* box-shadow: 0 .5em 2em darkgrey; */
-    width: 80%;
+    width: 50%;
     transition-duration: 700ms;
     cursor: pointer;
 }
@@ -201,7 +201,7 @@ header label:hover {
     color: black;
     font-weight: bolder;
     margin: 0;
-    width: 300px;
+    width: 100%;
 }
 
 .slide {
@@ -241,7 +241,7 @@ header label:hover {
 .outerContainer {
     display: grid;
     margin-top: 40px;
-    grid-template-columns: repeat(2,50%);
+    grid-template-columns: repeat(3,33.330%);
     grid-auto-flow: dense;
     transition-delay: 1s;
     background-color: black;
